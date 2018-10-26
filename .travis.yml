@@ -18,3 +18,5 @@ deploy:
   api_key: 
     secure: 
   app: docker-react-yh
+  on:
+    repo: yonatanharel/docker-react

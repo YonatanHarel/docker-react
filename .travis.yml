@@ -16,7 +16,7 @@ script:
 deploy:
   provider: heroku
   api_key: 
-    secure: 7c4a9d93-15de-421a-ac9a-22f06a88d7e1
+    secure: $HEROKU_API_KEY
   app: docker-react-yh
   on:
     repo: YonatanHarel/docker-react
